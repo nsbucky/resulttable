@@ -604,4 +604,11 @@ abstract class AbstractColumn {
         return $this;
     }
 
+    /**
+     * @return \ResultTable\Formatter\AbstractFormatter
+     */
+    public function getFormatter()
+    {
+        return $this->formatter;
+    }
 }
